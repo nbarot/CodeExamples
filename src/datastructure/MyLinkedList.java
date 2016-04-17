@@ -8,7 +8,7 @@ public class MyLinkedList {
 
     public static void main(String[] args) {
 
-        List<Node> linkedList = new LinkedList();
+
 
     }
 
@@ -46,7 +46,7 @@ public class MyLinkedList {
 
         while(head != null){
             if(position == 0){
-                orgHead = head.next ;
+                return head.next ;
             }
             if(i == position-1){
 
